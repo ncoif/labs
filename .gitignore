@@ -1,0 +1,5 @@
+# maven build directory
+**/target/
+
+# temporary save files
+*~

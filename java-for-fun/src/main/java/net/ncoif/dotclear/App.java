@@ -68,7 +68,7 @@ public class App {
 
 		String category = fixFrenchWriting(blogPost.getCategory());
 		category = category.replace("\"", "\\\"");
-		headerBuilder.append("categories: \"" + category + "\"\n");
+		headerBuilder.append("categories: [\"" + category + "\"]\n");
 
 		String tags = fixFrenchWriting(Joiner.on(" , ").join(blogPost.getTags()));
 		headerBuilder.append("tags: [" + tags + "]\n");

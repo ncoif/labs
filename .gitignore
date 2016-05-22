@@ -3,3 +3,8 @@
 
 # temporary save files
 *~
+
+# intellij
+*.iml
+**/.idea/
+**/out/

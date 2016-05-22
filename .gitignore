@@ -11,3 +11,7 @@
 
 #python
 *.pyc
+
+#haskell
+*.o
+*.hi
